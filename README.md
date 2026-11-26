@@ -15,7 +15,7 @@ Run all commands from this folder.
 
 ```powershell
 python -m venv .venv
-.\.venv\Scripts\Activate.ps1
+.\.venv\Scripts\activate.bat
 python -m pip install -r requirements.txt
 ```
 
@@ -40,6 +40,10 @@ FRONTEND_ORIGINS=http://localhost:5173,http://localhost:3000
 
 ```powershell
 python -m uvicorn app.main:app --reload
+```
+or
+```cmd
+fastapi dev app/main.py
 ```
 
 Then open:
