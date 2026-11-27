@@ -1,4 +1,4 @@
-# be-Sounner backend
+# be-Swaraloka backend
 
 FastAPI backend that searches Freesound for sound samples of Indonesian musical instruments. It keeps the Freesound API key on the server and exposes a small REST API for the frontend.
 
@@ -25,7 +25,7 @@ If PowerShell blocks virtualenv activation:
 .\.venv\Scripts\python.exe -m pip install -r requirements.txt
 ```
 
-Create or edit `.env`:
+Copy `.env.example` to `.env`, then edit it:
 
 ```env
 FREESOUND_API_KEY=your_key_here
@@ -34,7 +34,7 @@ FRONTEND_ORIGINS=http://localhost:5173,http://localhost:3000
 
 `FRONTEND_ORIGINS` is optional. It defaults to the two origins above. Add your deployed frontend URL there in production.
 
-`.env` is gitignored — never commit the API key.
+`.env` is gitignored — never commit the API key. `.env.example` contains placeholders only and is safe to commit.
 
 ## Run the server
 

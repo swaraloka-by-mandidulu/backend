@@ -52,7 +52,7 @@ app.add_middleware(
 @app.get("/")
 def root():
     return {
-        "message": "Welcome to Sound Explorer API"
+        "message": "Welcome to Swaraloka API"
     }
 
 @app.get("/health")
