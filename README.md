@@ -2,7 +2,7 @@
 
 FastAPI backend that searches Freesound for sound samples of Indonesian musical instruments. It keeps the Freesound API key on the server and exposes a small REST API for the frontend.
 
-See [API_CONTRACT.md](./API_CONTRACT.md) for the frontend/backend contract.
+See [API_CONTRACT.md](./API_CONTRACT.md) for the frontend/backend contract. 
 
 ## Requirements
 
